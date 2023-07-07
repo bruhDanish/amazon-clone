@@ -170,7 +170,11 @@ button{
     font-weight: 700;
 }
 
-.panel p i:hover{
+.panel p:hover{
+    cursor: pointer;
+}
+
+.panel-all:hover{
     cursor: pointer;
 }
 
