@@ -39,7 +39,7 @@ button{
 
 }
 
-.navbar:hover{
+.nav-logo:hover{
     cursor:pointer;
 }
 
@@ -59,6 +59,10 @@ button{
 .add-icon{
     display: flex;
     align-items: center;
+}
+
+.nav-address:hover{
+    cursor: pointer;
 }
 
 /* box3 */
@@ -106,6 +110,10 @@ button{
     color: #0f1111;
 }
 
+.nav-search, select:hover{
+    cursor: pointer;
+}
+
 /* box4 */
 
 .nav-one{
@@ -117,6 +125,10 @@ button{
     font-weight: 700;
 }
 
+.nav-signin:hover{
+    cursor: pointer;
+}
+
 /* box6 */
 
 .nav-cart i{
@@ -126,6 +138,10 @@ button{
 .nav-cart{
     font-size: .85rem;
     font-weight: 700;
+}
+
+.nav-cart:hover{
+    cursor: pointer;
 }
 
 /* panel */
@@ -154,10 +170,18 @@ button{
     font-weight: 700;
 }
 
+.panel p i:hover{
+    cursor: pointer;
+}
+
+.panel-deals:hover{
+    cursor: pointer;
+}
+
 /* hero */
 .hero-section{
     height: 350px;
-    background-image: url(hero_image.jpg);
+    background-image: url('./hero_image.jpg');
     background-size: cover; 
     display: flex;
     justify-content: center;
@@ -212,7 +236,7 @@ button{
 }
 
 .box-content p{
-    color:#007185
+    color:#007185;
 }
 
 .box-content:hover{
@@ -310,6 +334,8 @@ ul a{
     padding-top: 5px;
 }
 
+
+/* CSS that's applied when the viewing area's width is 800px or less */
 @media screen and (max-width: 952px){
     html{
     overflow-x:auto !important;
