@@ -215,6 +215,10 @@ button{
     color:#007185
 }
 
+.box-content:hover{
+    cursor: pointer;
+}
+
 /* footer */
 
 footer{
@@ -277,6 +281,10 @@ ul a{
     background-size: cover;
     width: 100px;
     height: 50px;
+}
+
+.logo-foot:hover{
+    cursor: pointer;
 }
 
 .foot-panel4{
